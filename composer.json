@@ -1,0 +1,33 @@
+{
+    "name": "sszh/alihbasethrift",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "hyperf"
+    ],
+    "description": "thrift for ali hbase+",
+    "autoload": {
+        "classmap": [
+            "./gen-php",
+            "./thrift"
+        ],
+        "psr-4": {
+            "Sszh\\Alihbasethrift\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "hyperf/contract": "~1.1.0",
+        "hyperf/utils": "~1.1.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "hyperf/di": "~1.1.0"
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Sszh\\Alihbasethrift\\ConfigProvider"
+        }
+    }
+}
