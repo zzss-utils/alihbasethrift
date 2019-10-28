@@ -8,9 +8,9 @@
     ],
     "description": "thrift for ali hbase+",
     "autoload": {
-        "classmap": [
-            "./gen-php",
-            "./thrift"
+        "files": [
+            "gen-php/",
+            "thrift/"
         ],
         "psr-4": {
             "Sszh\\Alihbasethrift\\": "src/"
