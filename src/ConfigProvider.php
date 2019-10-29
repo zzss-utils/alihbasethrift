@@ -36,7 +36,7 @@ class ConfigProvider
                 [
                     'id' => 'config',
                     'description' => 'The config of ali hbase client.',
-                    'source' => __DIR__ . '/../publish/ali-hbase.php.php',
+                    'source' => __DIR__ . '/../publish/ali-hbase.php',
                     'destination' => BASE_PATH . '/config/autoload/ali-hbase.php',
                 ],
             ],
